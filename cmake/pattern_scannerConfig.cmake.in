@@ -1,0 +1,6 @@
+# cmake/pattern_scannerConfig.cmake.in
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/pattern_scannerTargets.cmake")
+
+check_required_components(pattern_scanner)
